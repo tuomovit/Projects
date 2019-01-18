@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript" src="http://appro.mit.jyu.fi/tiea2120/vt/vt1/2018/data.js"></script>
+        <script type="text/javascript" src="vt3.js"></script>
+        <link rel="StyleSheet" href="tyylit.css" type="text/css" />
+        <meta charset="utf-8"/>
+        <title>Lomakepaateohjaus</title>
+    </head>
+    <body>
+
+<h1>Lisää Joukkue</h1>
+
+<form>
+    <fieldset>
+
+        
+  <label for="choose">Joukkue</label>
+  <input id="joukkue" name="i_like" required>
+ 
+
+
+        <p><label>Luontiaika <input type="datetime-local" id="aika" max="2018-01-01T00:00:00" value="pp . kk . vvvv --:--" /></label></p>
+        <label for="leimaustapa">Leimaustapa</label>
+
+        <input type="checkbox" id="check" value="gpsLab" name="joo" /> <label id="gpsLab">GPS</label>
+        <br>
+        <input type="checkbox" id="check" value="NFC" name="joo" /> <label id="gpsLab">NFC</label>
+        <br>
+        <input type="checkbox" id="check" value="QR" name="joo" /> <label id="gpsLab">QR</label>
+        <br>
+        <input type="checkbox" id="check" value="lomake" name="joo" /> <label id="gpsLab">Lomake</label>
+        <br>
+
+        <br>
+
+        <label for="sarja">Sarja</label>
+        <div id="div1"></div>
+         
+        
+       
+    </fieldset>
+
+    <fieldset>
+        <legend>Jäsenet</legend>
+         <p><label>Jäsen 1 <input type="text" id="eka" <input id="jasen1" name="jasen" /></label></p>
+     	
+       
+</p>
+    </fieldset>
+     
+     <button>Tallenna</button>
+
+             
+</form>
+
+
+	<div id="div2"></div>
+
+</body>
+</html>

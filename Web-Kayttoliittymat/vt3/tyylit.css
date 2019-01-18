@@ -1,0 +1,96 @@
+label#Disease ~ span {
+  display: inline-block;
+  width: 180px;
+}
+
+#check {
+   float: right;
+   clear: both;
+}
+
+#check2 {
+   float: right;
+   clear: both;
+}
+
+#check3 {
+   float: right;
+   clear: both;
+}
+
+#check4 {
+   float: right;
+   clear: both;
+}
+
+#joukkueenNimi {
+  float: right;
+}
+
+#luontiAika {
+  float: right;
+}
+
+#gpsCB {
+  float: right;
+
+    display: inline-block;
+}
+#gpsLab {
+  float: right;
+    display: inline-block;
+}
+
+#nfcCB {
+  float: right;
+    display: inline-block;
+}
+#nfcLab {
+  float: right;
+    display: inline-block;
+}
+
+#qrCB {
+float: right;  
+    display: inline-block;
+}
+#qrLab {
+float: right; 
+    display: inline-block;
+}
+
+#lomakeCB {
+  float: right;
+    display: inline-block;
+}
+#lomakeLab {
+  float: right;
+    display: inline-block;
+}
+
+#radio2h {
+  float: right;
+}
+
+#radio4h {
+  float: right;
+}
+
+#radio6h {
+  float: right;
+}
+
+#eka {
+  margin-left: 4em;
+
+}
+
+#jaa {
+  margin-left: 4.3em;
+
+}
+
+#idradio {
+	float: right;
+	clear: both;
+}
