@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<body onload="kirjoittaja()">
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>tumijovi</title>
+        <meta name="description" content="">
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="css/social-circles.min.css">
+        
+    </head>
+    
+    
+    <b><h1 id="demo"></h1></b><h1></h1>
+ 
+    
+    <body>
+
+
+       
+
+        <p>Tervetuloa sivuilleni! Olen Tuomo Vitikainen ja opiskelen kolmatta vuotta tietotekniikkaa Jyväskylän yliopistossa. Pidän kaikesta toimivasta ja esteettisestä, ja haluan että nämä periaatteet olisivat läsnä myös digitaalisissa tuotteissa. Minuun saa parhaiten yhteyden vaikkapa sähköpostilla   <a href="#" id="joo" onclick="vaihda()">tuomo.vitikainen@gmail.com</a></p>
+
+        <h4>Juttuja joita olen tehnyt:</h4>
+
+        <img src="kuvat/kuva1.png">
+
+        <p>Sijoitusmaailmasta tuttu maailman kahdeksas ihme <a href="http://www.tuomovitikainen.fi/korkoakorolle/">laskurin</a> muodossa. Toteutettu HTML/CSS/JavaScriptillä käyttäen apuna Chart.Js kirjastoa diagrammin piirtämisessä. Vielä hieman keskeneräinen.
+
+        Koodi sekä muita projektejani löytyy <a href="https://github.com/tuomovit/Projects">GitHubista</a> </p>
+    
+        
+		
+        <div class="smediat">
+        <a class="icon-github social-button borderless" href="https://github.com/tuomovit/Projects"></a>
+        <a class="icon-linkedin social-button borderless" id="linkedin" href="https://www.linkedin.com/in/tuomo-vitikainen-87775b140/?originalSubdomain=fi"></a>
+        <a class="icon-instagram social-button borderless" href="http://instagram.com/tuomovitikainen/"></a>
+        <div>
+
+        <div class="footer">
+        <h5> Social media buttons by:   <font color="#5d6063">github.com/janhuenermann</font>  </h5>
+
+        </div>	
+        
+
+        
+        
+        
+  </html>      
+ </body>
+<script>
+var i = 0;
+var txt = 'Hei sinä siellä!|';
+var nopeus = 70;
+
+   
+function kirjoittaja() {
+  if (i < txt.length) {
+    document.getElementById("demo").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(kirjoittaja, nopeus);
+  }
+   
+}
+
+function vaihda() {
+  document.getElementById("joo").innerHTML = "tuomo.vitikainen@gmail.com";
+}
+
+</script>
+        
+   
+

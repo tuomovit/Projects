@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Krub');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Barlow|Oswald:500|Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+
+html, body {
+    background-color: rgb(242, 242, 242)  
+    
+}
+
+img {
+  width: 40%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 5vw;
+  min-width: 300px;
+
+}
+
+
+@media screen and (max-width: 781px){
+
+  p {
+
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-bottom: 60px;
+  padding-top: 60px;
+  
+  
+}
+
+html, body {
+    font-size: 90%;
+    
+}
+
+
+
+}
+
+p {
+    
+    margin-top: 10vw;
+    font-family: 'Krub', sans-serif;
+    font-size: 1.3em;
+    text-align: center;
+    text-justify: inter-word;
+    max-width: 800px;
+    margin:0 auto;
+    margin-bottom: 5vw;
+    text-align: left;
+    margin-left: auto;
+
+
+
+   
+    
+    
+}
+
+h4 {
+    margin-left: 20vw;
+    margin-right: 20vw;
+    margin-top: 10vw;
+    font-family: 'Krub', sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    color: black;
+
+ 
+}
+
+h1 {
+    margin-top: 6vw;
+    font-size: 3em;
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+    font-weight: normal;
+    width: 100%;
+    
+}
+
+h5 {
+
+ font-size: 0.8em;
+ font-family: 'Krub', sans-serif;
+ color: #949aa3;
+ margin-top: 2vw;
+ margin-bottom: 0vw;
+
+
+
+}
+
+p {
+  line-height: 1.5;
+}
+#joo {
+  color: Black;
+  text-decoration: none;
+  box-shadow: inset 0 -16px 0 #ffff46;
+  transition: box-shadow .5s ease-out;
+}
+#joo:hover {
+  box-shadow: inset 0 -16px 0 #ffff46;
+}
+
+a:visited {color:#000000;}
+
+
+
+@keyframes slidein {
+  from {
+    color: white;
+  }
+
+  to {
+    color: black;
+  }
+}
+
+.smediat {
+    margin-top: 2vw;
+    text-align: center;
+    
+}
+
+.footer {
+  
+  margin-top: 8vw;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+
+
+
+}
+
+
+#linkedin {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
