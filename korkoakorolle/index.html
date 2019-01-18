@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Korkoa korolle -laskuri</title>
+        <meta name="description" content="">
+        <link rel="stylesheet" href="tyylit.css">
+        <script type="text/javascript" src="korkoakorolle.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+         
+        
+    </head>
+<body>
+    
+    
+<div class="content">
+    
+<h1>Korkoa korolle -laskuri</h1>
+<h5>Käppyrä: Chart.js</h5>
+    
+<p>Kuukausittain säästöön:   <span id="sliderAmount0"></span>  € </p> 
+<input id="slide0" type="range" min="0" max="800" step="10" value="50"  oninput="updateSlider0(this.value)">        
+    
+    
+<p>Säästöaika vuosina:   <span id="sliderAmount1"></span> vuotta  </p> 
+<input id="slide1" type="range" min="1" max="40" step="1" value="5" oninput="updateSlider1(this.value)">     
+    
+       
+<p>Oletustuotto: <span id="sliderAmount2"></span> %</p> 
+<input id="slide2" type="range" min="1" max="10" step="1" value="7" oninput="updateSlider2(this.value)">
+    
+<!-- <p>Alkutalletus:   <span id="sliderAmount2"></span> €  </p> 
+<input id="slide2" type="range" min="1" max="1000" step="1" value="200" oninput="updateSlider2(this.value)">  Jos lisään myöhemmin myös alkutalletuksen -->   
+
+    
+<p>Rahaa talletettu: <span id="talletettu"></span> euroa</p>    
+<p>Rahaa säästössä: <span id="tulos"></span> euroa</p>
+    
+    
+</div>
+<div class="chart-container" style="position: relative; height:8vh; width:100vw">
+<canvas id="myChart" style="height: auto"></canvas>
+</div>
+
+  
+
+</body>
+</html>
