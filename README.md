@@ -7,9 +7,6 @@ My own projects:
   - Calculator, which calculate compound interest of users values. Made with HTML/CSS/JS,
   and it draws diagram with Chart.js library. Not ready yet, but the functions works.
   
-• Tumijovisivu
-  - My own homepage, light and fast. The principle are was to make a nice page mostly with
-  only HTML/CSS, and very little bit of JavaScript. Works OK on the phone and the computer.
 
 School stuff:
 
